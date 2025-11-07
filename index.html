@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Faire un don — Dr Alaoui Hijazi Taha</title>
+  <style>
+    body { background:#0b0b0b; color:#fff; font-family: -apple-system, Roboto, "Helvetica Neue", Arial; margin:0; padding:18px; }
+    .card { background:#0f1720; border-radius:12px; padding:16px; margin-bottom:14px; box-shadow: 0 6px 18px rgba(0,0,0,0.6); }
+    h1 { margin:0 0 6px 0; font-size:20px }
+    p.lead { margin:4px 0 12px 0; color:#d1d5db }
+    .addr { font-family: monospace; word-break:break-all; font-size:14px; }
+    .grid { display:flex; gap:12px; flex-wrap:wrap; }
+    .qr { width:120px; height:120px; border-radius:8px; background:#fff; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+    .note { color:#9ca3af; font-size:13px; margin-top:6px; }
+    .small { font-size:13px; color:#cbd5e1 }
+    a.cta { display:inline-block; padding:10px 14px; background:#ef4444; color:#fff; border-radius:8px; text-decoration:none; margin-top:12px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Merci — Soutien pour actions caritatives</h1>
+    <p class="lead">Vos dons servent à financer des actions médicales et caritatives. Choisissez la méthode qui vous convient.</p>
+    <div class="small">Attention : envoyez uniquement des fonds — ne partagez pas d'informations sensibles. Utilisez l'adresse correcte pour la crypto choisie.</div>
+  </div>
+
+  <!-- Exemple: Binance (BEP20) -->
+  <div class="card">
+    <strong>Binance (BEP20 / BNB Smart Chain)</strong>
+    <div class="grid" style="align-items:center; margin-top:10px;">
+      <div class="qr">
+        <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=binance:YOUR_BINANCE_ADDRESS&choe=UTF-8" alt="QR" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+      <div>
+        <div class="addr">YOUR_BINANCE_ADDRESS</div>
+        <div class="note">Réseau : BEP20 (BSC). Vérifiez le réseau avant envoi.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Exemple: BuyBit (exemple ERC20/USDT) -->
+  <div class="card">
+    <strong>BuyBit / USDT (ERC20)</strong>
+    <div class="grid" style="align-items:center; margin-top:10px;">
+      <div class="qr">
+        <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=ethereum:YOUR_ETH_ADDRESS&choe=UTF-8" alt="QR" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+      <div>
+        <div class="addr">YOUR_ETH_ADDRESS</div>
+        <div class="note">Réseau : ERC20 (Ethereum). Frais variables — vérifier avant envoi.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bitcoin -->
+  <div class="card">
+    <strong>Bitcoin (BTC)</strong>
+    <div class="grid" style="align-items:center; margin-top:10px;">
+      <div class="qr">
+        <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcoin:YOUR_BTC_ADDRESS&choe=UTF-8" alt="QR" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+      <div>
+        <div class="addr">YOUR_BTC_ADDRESS</div>
+        <div class="note">Réseau : Bitcoin. Vérifiez frais et confirmation.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Autres adresses (ex: TRC20 USDT, BSC USDT...) -->
+  <div class="card">
+    <strong>USDT (TRC20)</strong>
+    <div class="grid" style="align-items:center; margin-top:10px;">
+      <div class="qr">
+        <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=tron:YOUR_TRON_ADDRESS&choe=UTF-8" alt="QR" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+      <div>
+        <div class="addr">YOUR_TRON_ADDRESS</div>
+        <div class="note">Réseau : TRC20 (Tron). Frais faibles — lecteur mobile recommandé.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <small class="small">Contact / Questions : contact@example.com</small>
+    <div style="margin-top:10px;">
+      <a class="cta" href="mailto:contact@example.com?subject=Donation%20Pocket%20Ordo">Contacter</a>
+    </div>
+  </div>
+
+  <div style="text-align:center; color:#6b7280; font-size:12px; margin-top:18px;">
+    <div>Pour des raisons de sécurité, n'envoyez jamais d'assez importantes sommes sans contact préalable.</div>
+    <div class="note">Adresses publiques fournies sans garantie. Vous êtes responsable de l'envoi.</div>
+  </div>
+</body>
+</html>
